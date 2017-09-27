@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orleans.DI.ConsoleHost", "Orleans.DI\Orleans.DI.ConsoleHost.csproj", "{0F24FB01-81C5-4F60-A0A5-7284EE2BDBAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orleans.DI.Grains", "Orleans.DI.Grains\Orleans.DI.Grains.csproj", "{5F4F0225-8FB5-4075-B51B-1B4894CE0C48}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orleans.DI.GrainInterfaces", "Orleans.DI.GrainInterfaces\Orleans.DI.GrainInterfaces.csproj", "{14B918D9-AA90-4E5D-ADC6-261FCA924882}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orleans.DI.Services", "Orleans.DI.Services\Orleans.DI.Services.csproj", "{DC7297AF-2DA6-453D-859A-D1AE5573EBE2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Orleans.DI.TestClient", "Orleans.DI.TestClient\Orleans.DI.TestClient.csproj", "{750949D6-E664-45D7-847E-D0102FC694F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F24FB01-81C5-4F60-A0A5-7284EE2BDBAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F24FB01-81C5-4F60-A0A5-7284EE2BDBAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F24FB01-81C5-4F60-A0A5-7284EE2BDBAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F24FB01-81C5-4F60-A0A5-7284EE2BDBAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F4F0225-8FB5-4075-B51B-1B4894CE0C48}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F4F0225-8FB5-4075-B51B-1B4894CE0C48}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F4F0225-8FB5-4075-B51B-1B4894CE0C48}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F4F0225-8FB5-4075-B51B-1B4894CE0C48}.Release|Any CPU.Build.0 = Release|Any CPU
+		{14B918D9-AA90-4E5D-ADC6-261FCA924882}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14B918D9-AA90-4E5D-ADC6-261FCA924882}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14B918D9-AA90-4E5D-ADC6-261FCA924882}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14B918D9-AA90-4E5D-ADC6-261FCA924882}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC7297AF-2DA6-453D-859A-D1AE5573EBE2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC7297AF-2DA6-453D-859A-D1AE5573EBE2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC7297AF-2DA6-453D-859A-D1AE5573EBE2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC7297AF-2DA6-453D-859A-D1AE5573EBE2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{750949D6-E664-45D7-847E-D0102FC694F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{750949D6-E664-45D7-847E-D0102FC694F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{750949D6-E664-45D7-847E-D0102FC694F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{750949D6-E664-45D7-847E-D0102FC694F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
